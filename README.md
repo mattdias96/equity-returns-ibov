@@ -18,11 +18,15 @@ The Effiient Market Hypothesis (EMH) postulates that consistent generation of al
 
 ### Source
 
+- Theoretical Porfolio IBOVESPA March 2002[https://www.estadao.com.br/economia/ibovespa-nova-carteira-teorica-para-maio-a-agosto/]
+- Investment Funds larger than BRL$10M: https://www.kaggle.com/datasets/matheusdias1996/brazilian-investment-funds
+
+
 ### Datasets
 
 I made both datasets available at Kaggle
 - Theoretical Porfolio IBOVESPA March 2002: https://www.kaggle.com/datasets/matheusdias1996/carteira-teorica-ibov-mar2002
-- Investment Funds: https://www.kaggle.com/datasets/matheusdias1996/brazilian-investment-funds
+- Investment Funds larger than BRL$10M: https://www.kaggle.com/datasets/matheusdias1996/brazilian-investment-funds
 
 ![mingpt](mingpt.jpg)
 
