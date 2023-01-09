@@ -9,6 +9,7 @@ The idea for this analysis came from a conversation with a few friends about how
 
 EMH postulates that consistent generation of alpha (excess return) is impossible. Here we define alpha according the Capital Pricing Model (CAPM) as the difference between the expected return of a portfolio given its risk (variance of monthly returns) and the actual observed return. The expected return of a portfolio is defined as the risk free rate added to the volatility of the stock (covariance between market returns - IBOV in this case - and the returns of the portfolio) times the difference between the returns from the market and the risk free rate. Mathematically, we have:
 
+[Add CAPM Model image]
 
 ## Survival Bias
 
