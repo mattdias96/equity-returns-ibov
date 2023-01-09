@@ -14,16 +14,17 @@ EMH postulates that consistent generation of alpha (excess return) is impossible
 If EMH is true, then alpha tend to zero as the investment horizon extends. However, the data may not show this for at least two reasons. First, the time interval of the equity funds returns data we have access to is limited (2002-2022) and alpha may converge too slowly for us to see it approacing zero. Secondly, there is a clear survival bias: equity funds that perform worse tend to not last long, since investors will remove money from the fund because of its lower performance (sometimes causing it to perform even worse since assets need to be liquidated quickly)
 
 
-<p float="left">
-  <img src="survival.png" width="300" />
-  <img src="survival_broken.png" width="300" /> 
+<p align="center">
+  <img src="survival_broken.png" width="500" /> 
 </p>
 
 ## Hypothesis Test and Synthetic Porfolio Construction
 
 For each equoty fund, we generate 1,000 vector of random weights for 13 different stocks that composed 70% of the IBOV portfolio in March 2002. Each of these vectors is a different synthetic portfolio, and we compute its associated alpha given its returns during the same time interval of the actual portfolio. We then compute the probability of observing the actual alpha if it was sampled from the distribution of synthetic alphas (p-value). If there was no survival bias and alpha cannot be consistently generated, we would expect p-values to be uniformly distributed over 0 and 1.
 
-[Add p-value plot]
+<p align="center">
+  <img src="pvalues.png" width="500" /> 
+</p>
 
 The distribution looks fairly unform for p-values in [0.10, 0.90], but the extremes concentrate a lot of the weight. There seems to be evidence for equity funds that perform significatly better and worse than 0.
 
