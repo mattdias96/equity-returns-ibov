@@ -41,5 +41,3 @@ I made both datasets available at Kaggle
 - [Theoretical Porfolio IBOVESPA March 2002](https://www.kaggle.com/datasets/matheusdias1996/carteira-teorica-ibov-mar2002)
 - [Brazilian Equity Investment Funds larger than BRL$10M](https://www.kaggle.com/datasets/matheusdias1996/brazilian-investment-funds)
 
-![mingpt](mingpt.jpg)
-
