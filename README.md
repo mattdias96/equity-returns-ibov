@@ -15,7 +15,7 @@ EMH postulates that consistent generation of alpha (excess return) is impossible
 
 If EMH is true, then alpha tend to zero as the investment horizon extends. However, the data may not show this for at least two reasons. First, the time interval of the equity funds returns data we have access to is limited (2002-2022) and alpha may converge too slowly for us to see it approacing zero. Secondly, there is a clear survival bias: equity funds that perform worse tend to not last long, since investors will remove money from the fund because of its lower performance (sometimes causing it to perform even worse since assets need to be liquidated quickly)
 
-[Add survivor function plots]
+![survival](survival.png)
 
 ## Hypothesis Test and Synthetic Porfolio Construction
 
